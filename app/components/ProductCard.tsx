@@ -4,8 +4,8 @@ import type React from "react";
 
 import Image from "next/image";
 import Link from "next/link";
-import type { Product } from "@/lib/store";
-import { useStore } from "@/lib/store";
+import type { Product } from "../lib/store";
+import { useStore } from "../lib/store";
 
 interface ProductCardProps {
   product: Product;
