@@ -95,7 +95,6 @@ export const useStore = create<AppState>()(
         return get().cart.reduce((total, item) => total + item.quantity, 0);
       },
 
-      // Products state
       products: [
         {
           id: "nfcovers-digital",
@@ -148,8 +147,6 @@ export const useStore = create<AppState>()(
         },
       ],
       setProducts: (products) => set({ products }),
-
-      // Orders state
       orders: [],
       addOrder: (order) => {
         set((state) => ({

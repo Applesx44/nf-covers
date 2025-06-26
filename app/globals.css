@@ -14,7 +14,6 @@ body {
     min-height: 100vh;
 }
 
-/* Navigation */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -81,7 +80,6 @@ body {
     gap: 60px;
 }
 
-/* Product Images */
 .product-images {
     display: flex;
     gap: 20px;
@@ -228,7 +226,6 @@ body {
     text-decoration: underline;
 }
 
-/* Variant Selection */
 .variant-selection {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -269,7 +266,6 @@ body {
     font-size: 12px;
 }
 
-/* Quantity Section */
 .quantity-section {
     margin-bottom: 25px;
 }
@@ -291,7 +287,6 @@ body {
     width: 100px;
 }
 
-/* Shipping Options */
 .shipping-options {
     margin-bottom: 30px;
 }
@@ -325,7 +320,6 @@ body {
     font-size: 12px;
 }
 
-/* Expandable Sections */
 .expandable-sections {
     border-top: 1px solid #333;
 }
@@ -365,7 +359,6 @@ body {
     font-size: 14px;
 }
 
-/* Protection Banner */
 .protection-banner {
     background-color: #000;
     border-top: 2px solid #333;
@@ -396,7 +389,6 @@ body {
     }
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
